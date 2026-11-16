@@ -1,0 +1,35 @@
+{
+  "best_model": "Logistic Regression",
+  "selection_metric": "mean 3-fold stratified training ROC-AUC (synthetic demonstration only)",
+  "selected_features": [
+    "bmi_demo",
+    "smoking_demo",
+    "family_history_demo",
+    "sodium_intake_mg_day_demo",
+    "diabetes_history_demo"
+  ],
+  "input_features": [
+    "age_years",
+    "bmi_demo",
+    "smoking_demo",
+    "activity_hours_week_demo",
+    "family_history_demo",
+    "sodium_intake_mg_day_demo",
+    "diabetes_history_demo"
+  ],
+  "target": "synthetic_demo_label",
+  "random_seed": 42,
+  "train_rows": 1500,
+  "test_rows": 500,
+  "disclaimer": "Synthetic educational output only; not clinical validation or medical advice.",
+  "confusion_matrix": [
+    [
+      200,
+      140
+    ],
+    [
+      89,
+      71
+    ]
+  ]
+}
